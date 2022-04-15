@@ -14,6 +14,7 @@ def identify_zodiac_sign(day, month, year):
 
             if date_from <= user_date and user_date <= date_to:
                 return zodiac
+        return "capricorn"
     except:
         return "Некорректная дата"
 
